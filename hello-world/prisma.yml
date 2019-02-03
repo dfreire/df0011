@@ -1,0 +1,6 @@
+endpoint: https://eu1.prisma.sh/dario-8fe0a1/hello-world/dev
+datamodel: datamodel.prisma
+
+generate:
+  - generator: flow-client
+    output: ./generated/prisma-client/

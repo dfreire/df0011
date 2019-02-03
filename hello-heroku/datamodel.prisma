@@ -1,0 +1,14 @@
+type User {
+  id: ID! @unique
+  name: String!
+}
+
+type Post {
+  id: ID! @unique
+
+  title_en: String!
+  title_pt: String
+
+  text_en: String!
+  text_pt: String
+}
